@@ -331,6 +331,7 @@ class PalancaObjetivos extends Component {
                   }
                   type="text"
                   value={this.state.textObjetivo}
+                  placeholder="descripción"
                   onChange={(e) => {
                     this.setState({ textObjetivo: e.target.value });
                   }}
@@ -359,6 +360,7 @@ class PalancaObjetivos extends Component {
                 style={{ width: "80%" }
             }
                   type="text"
+                  placeholder="descripción"
                   onChange={(e) => {
                     this.setState({ textPalanca: e.target.value });
                   }}
